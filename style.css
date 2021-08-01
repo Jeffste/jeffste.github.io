@@ -13,6 +13,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+
+
 :root{
 /* Colors*/
     --white-500: #fff;
@@ -47,6 +49,12 @@
     --dist-32: 2.0rem;
 }
 
+
+
+
+
+
+
 /* Disable default heading margins */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
     margin-top: 0;
@@ -55,7 +63,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
 
 /* Default paragraph */
 p{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Newsreader', serif;
   line-height: var(--lineheight-default);
   white-space: pre-line;
   color: var(--gray-500);
