@@ -297,6 +297,7 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   position: relative;
+  background-color: #F9F8F6;
 
 }
 
@@ -403,7 +404,7 @@ aside
 /* ------------ maxwidth 1148 ----------------------- */
 @media all and (max-width: 1148px) {
 body{
-  background-color: green;
+  background-color: #F9F8F6;
   padding-left: 2.0rem;
   padding-right: 2.0rem;
 }
@@ -483,7 +484,7 @@ body{
   .hero-work{
     max-width: 1100px;
     margin: 0 auto;
-    background-color: pink;
+    background-color: #F9F8F6;
     margin-top: 40px;
     padding-bottom: 40px;
     padding-left: 1rem;
