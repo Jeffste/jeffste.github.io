@@ -499,6 +499,13 @@ body{
     margin-right: -1.0rem;
   }
 
+  h1{
+    font-size: var(--text-9);
+    line-height:64px;
+    font-family: 'TiemposHeadline';
+    /* line-height: var(--lineheight-default); */
+  }
+
 /* Grid columns become full width >700px */
 .grid-read{
   grid-template-columns: 1fr;
