@@ -51,8 +51,8 @@ html * {
     --text-5:   1.10rem;     /* 16px default*/
     --text-6:   1.25rem;  /* 20px */
     --text-7:   1.75rem;   /* 28px */
-    --text-8:   2.0rem; /* 32px */
-    --text-9:   4rem; /* 40px */
+    --text-8:   3rem; 
+    --text-9:   4rem;
 
 /* Lineheights */
     --lineheight-default: 1.5;
