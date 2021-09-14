@@ -51,7 +51,7 @@ html * {
     --text-5:   1.10rem;     /* 16px default*/
     --text-6:   1.25rem;  /* 20px */
     --text-7:   1.75rem;   /* 28px */
-    --text-8:   3rem; 
+    --text-8:   3rem;
     --text-9:   4rem;
 
 /* Lineheights */
@@ -501,7 +501,7 @@ body{
 
   h1{
     font-size: var(--text-8);
-    line-height:64px;
+    line-height:54px;
     font-family: 'TiemposHeadline';
     /* line-height: var(--lineheight-default); */
   }
