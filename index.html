@@ -6,7 +6,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
   </head>
 
@@ -17,6 +19,9 @@
 <path d="M14.4706 20L22 4H19L11.4706 20H14.4706Z" fill="#191A1A" class="svg-elem-2"></path>
 <path d="M9.47058 20L17 4H14L6.47058 20H9.47058Z" fill="#191A1A" class="svg-elem-3"></path>
 </svg>
+
+
+
 
 
     </div>
@@ -56,7 +61,7 @@
   <!-- <a href="#"> -->
     <Card class="card">
       <h2>
-        <class="hr4">mijnsubsidie </span> <span class="hr5">— iOS app</span>
+        <class="hr4">mijnsubsidie </span> <span class="hr5">— Webapp</span>
       </h2>
         <img src="images/mijnsubsidie - card.png" alt="">
     </card>
@@ -85,7 +90,56 @@
   <footer>
     <p>Twitter | LinkedIn</p>
   </footer> -->
+<div class="part2">
 
+  <div class="part2Intro">
+    <div class="title-left">
+    <h3>Journey</h3>
+  </div>
+    <div class="quote-right">
+      <blockquote><p>“Always surround yourself with people who are even more talented and competent than you.”</p></blockquote>
+<br>
+    <p><strong>_Stephen Covey</strong></p>
+  </div>
+  </div>
+
+  <div class="Collapsibles">
+
+    <button type="button" class="collapsible"><p class="collapsible-title">Product designer at Effectory</p>
+    <p class="date">2020 - Now</p></button>
+    <div class="content">
+      <p class="role-description">As a product designer at Effectory, I'm responsible for designing My Effectory. In My Effectory our clients can set up everything that is needed to gather feedback within their organization. Managing their employees, start surveys, view results, learn and take action. Alongside designing new features, we product designers are also taking the lead in maintaining the design system and closen the gap between design and development.</p>
+    </div>
+    <button type="button" class="collapsible"><p class="collapsible-title">Visual designer at Yummygum</p>
+    <p class="date">2016 - 2020</p></button>
+    <div class="content">
+      <p class="role-description">Being part of the Yummygum team, I helped startups and established businesses refine, design, and build their digital products. Working here, I had the honor to work with great clients like Spider Strategies, NOS, Hotelchamp, Shutterfly, FindHotel & Startpage.com</p>
+    </div>
+    <button type="button" class="collapsible"><p class="collapsible-title">Freelance designer</p>
+    <p class="date">2016 - 2020</p></button>
+    <div class="content">
+      <p class="role-description">Next to my job at Yummygum I started to freelance. In this period I worked a lot together with Mijnsubsidie. Together with a UX designer, we made a complete redesign of their web app. Besides the web app, I also designed documents, surveys, and their marketing website.</p>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 
 
 </body>
