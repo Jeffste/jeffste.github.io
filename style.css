@@ -12,8 +12,6 @@ html * {
  * W. https://svgartista.net
  **************************************************/
 
-@keyframes animate-svg-fill-1{0%{fill:transparent}100%{fill:rgb(25,26,26)}}.svg-elem-1{animation:animate-svg-fill-1 0.6s cubic-bezier(0.755,0.05,0.855,0.06) 0.8s both}@keyframes animate-svg-fill-2{0%{fill:transparent}100%{fill:rgb(25,26,26)}}.svg-elem-2{animation:animate-svg-fill-2 0.6s cubic-bezier(0.755,0.05,0.855,0.06) 0.9s both}@keyframes animate-svg-fill-3{0%{fill:transparent}100%{fill:rgb(25,26,26)}}.svg-elem-3{animation:animate-svg-fill-3 0.6s cubic-bezier(0.755,0.05,0.855,0.06) 1s both}
-
 /* Fonts headings */
 @font-face {
     font-family: 'Tiempos Headline';
@@ -501,6 +499,7 @@ body{
     height: 300px;
     }
 
+
 .hero img{
   height: 900px;
   object-fit: cover;
@@ -526,7 +525,7 @@ body{
 
   h1{
     font-size: var(--scale-8);
-    line-height:54px;
+    line-height: var(--leading-none);
     font-family: 'TiemposHeadline';
     /* line-height: var(--lineheight-default); */
   }
