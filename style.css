@@ -1,6 +1,7 @@
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 
@@ -248,6 +249,10 @@ figure{
   position: sticky;
   margin: 0 auto;
   top: 0;
+
+
+
+
 }
 
 /* logo container */
@@ -272,7 +277,6 @@ nav a{
   text-decoration: none;
   font-weight: 700;
   font-size: var(--text-4);
-  color: black;
 }
 
 
@@ -530,6 +534,20 @@ body{
     /* line-height: var(--lineheight-default); */
   }
 
+
+  .quote-right{
+    /* background-color: green; */
+    margin-top: 24px;
+
+  }
+
+
+.part2Intro{
+  flex-direction: column;
+}
+
+
+
 /* Grid columns become full width >700px */
 .grid-read{
   grid-template-columns: 1fr;
@@ -641,14 +659,14 @@ body{
 
 .quote-right{
   /* background-color: green; */
-  width: 360px;
+  width: 368px;
   border-left: 1px solid;
   border-color: var(--color-grey-700);
 }
 
 .quote-right p{
   color: var(--color-white);
-  padding-left: 12px;
+  padding-left: 24px;
   color: white;
   font-size: var(--scale-0);
   line-height: var(--leading-normal);
@@ -660,6 +678,7 @@ blockquote{
 
 .title-left h3{
   color: white;
+  padding-left: 24px;
 }
 
 .Collapsibles{
