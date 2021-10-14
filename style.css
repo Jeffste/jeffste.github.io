@@ -503,6 +503,11 @@ body{
     height: 300px;
     }
 
+    .hero-case{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
 
 .hero img{
   height: 900px;
