@@ -128,6 +128,7 @@ p{
 
 
 .blur {
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 
@@ -144,6 +145,7 @@ p{
   background: rgba(255, 255, 255, 0.89);
     border-bottom: 1px solid #EDEDED;
 }
+
 
 /* Space between title and description  */
 .title{
