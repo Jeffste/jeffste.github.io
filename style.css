@@ -1,7 +1,6 @@
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 
@@ -96,9 +95,56 @@ p{
   color: var(--color-black);
   font-size: var(--text-5);
   font-weight: 400;
-
-
 }
+
+.insta{
+  border-radius: 16px;
+  animation-name: example;
+  background: radial-gradient(179.06% 43.44% at -16.75% 7.2%, #3771C8 0%, #3771C8 12.8%, rgba(102, 0, 255, 0) 100%), radial-gradient(92.18% 99.11% at 26.56% 107.7%, #FFDD55 0%, #FFDD55 10%, #FF543E 50%, #C837AB 100%);
+}
+
+
+.insta:hover {
+    transform: scale(1.2);
+    transition: all ease 200ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.2);
+    transition: all ease 200ms;
+}
+
+.dribbble:hover {
+    transform: scale(1.2);
+    transition: all ease 200ms;
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+    transition: all ease 200ms;
+}
+
+
+
+
+.blur {
+  backdrop-filter: blur(8px);
+}
+
+
+/* topheader */
+.topbar{
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  margin: 0 auto;
+  top: 0;
+  background: rgba(255, 255, 255, 0.89);
+    border-bottom: 1px solid #EDEDED;
+}
+
 /* Space between title and description  */
 .title{
   padding-right: 24px;
@@ -229,20 +275,7 @@ figure{
 
 /* ----------Layout-------------------------------- */
 
-/* topheader */
-.topbar{
-  width: 100%;
-  max-width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  margin: 0 auto;
-  top: 0;
 
-
-
-
-}
 
 /* logo container */
 .header1{
@@ -254,15 +287,15 @@ figure{
 
 /* Navigation top right */
 .navigation{
+  width: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* Navigation links */
 nav a{
   font-family: 'Karla', sans-serif;
-  padding-left: 16px;
   text-decoration: none;
   font-weight: 700;
   font-size: var(--text-4);
