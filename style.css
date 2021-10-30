@@ -97,6 +97,11 @@ p{
   font-weight: 400;
 }
 
+.blur {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
 .insta{
   border-radius: 16px;
   animation-name: example;
@@ -122,14 +127,6 @@ p{
 .twitter:hover {
     transform: scale(1.2);
     transition: all ease 200ms;
-}
-
-
-
-
-.blur {
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
 }
 
 
@@ -558,7 +555,7 @@ body{
 
   h1{
     font-size: var(--scale-8);
-    line-height: var(--leading-none);
+    line-height: 72px;
     font-family: 'TiemposHeadline';
     /* line-height: var(--lineheight-default); */
   }
