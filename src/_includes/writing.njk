@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+
+{% include 'header.njk' %}
+
+
+<body>
+  <main>
+    <div class="hero-writing">
+        <h1>{{ title }}</h1>
+        <p>Yes, just things, often design related, but not always. </p>
+    </div>
+
+    <div class="grid-home">
+              {{ content | safe }}
+    </div>
+  </main>
+</body>
+</html>
