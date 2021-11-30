@@ -64,13 +64,8 @@ html * {
 --milk-500: #F3F2F2;
 --milk-300: #FAF9F9;
 
-
-
-
-
 --white-500: #fff;
---black-500: #000;
---gray-500: #546177;
+
 
 
 /*Font sizes*/
@@ -456,6 +451,19 @@ margin-bottom: 40px;
   -o-animation: fadein 2s; /* Opera */
 }
 
+
+.hero-post{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 64px;
+  padding-bottom: 80px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
 .hero-writing p{
   color: #656363;
 }
@@ -713,8 +721,6 @@ main{
     }
 
 
-
-
 .hero img{
   height: 900px;
   object-fit: cover;
@@ -747,8 +753,8 @@ main{
 }
 
   h1{
-    font-size: var(--scale-8);
-    line-height: 72px;
+    font-size: var(--scale-6);
+    line-height: 44px;
     font-family: 'TiemposHeadline';
     /* line-height: var(--lineheight-default); */
   }
