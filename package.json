@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "index.js",
  "scripts": {
-    "build": "eleventy",
+    "build": "eleventy --build",
     "start": "eleventy --serve"
   },
   "keywords": [],
