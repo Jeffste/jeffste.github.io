@@ -178,7 +178,6 @@ nav [aria-current="page"] {
   top: 0;
   background: rgba(255, 255, 255, 0.94);
   border-bottom: 1px solid #EDEDED;
-  padding-right: 1rem;
   z-index: 999;
 }
 
@@ -647,6 +646,12 @@ aside
 @media all and (max-width: 1148px) {
 body{
   background-color:var(--white-500);
+  padding-left: 0rem;
+  padding-right:  0rem;
+}
+
+main{
+  background-color:var(--white-500);
   padding-left: 2.0rem;
   padding-right: 2.0rem;
 }
@@ -744,8 +749,8 @@ body{
 
 .grid-home{
   grid-template-columns: 1fr;
-  padding-left: 1.0rem;
-  padding-right: 1.0rem;
+  /* padding-left: 1.0rem; */
+  /* padding-right: 1.0rem; */
 }
 
 
