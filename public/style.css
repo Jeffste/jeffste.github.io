@@ -73,7 +73,7 @@ html * {
     --text-4:  0.8125rem; /* 13px descriptions*/
     --text-5:   1.10rem;     /* 16px default*/
     --text-6:   1.25rem;  /* 20px */
-    --text-7:   1.75rem;   /* 28px */
+    --text-7:   1.40rem;
     --text-8:   3rem;
     --text-9:   4rem;
 
@@ -106,7 +106,10 @@ p{
   font-size: var(--text-5);
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+}
 
+h3{
+  font-size: var(--text-7);
 }
 
 .cardThings p{
@@ -125,7 +128,7 @@ nav [aria-current="page"] {
 }
 
 .myButton {
-	background-color: #333;
+	background-color: var(--chocolate-700);
 	border:2px solid #333;
 	display:inline-block;
 	cursor:pointer;
@@ -655,11 +658,6 @@ article p{
   margin: 0 auto;
 }
 
-/* .article > h1,h2,h3,h4,h5{
-  background: blue;
-
-  margin: 0 auto;
-} */
 
 
 figcaption{
@@ -825,110 +823,4 @@ main{
   }
 
 
-}
-
-
-
-.collapsible {
-  background-color: #1D1E21;
-  color: white;
-  cursor: pointer;
-  padding: 16px;
-  padding-left:24px;
-  padding-right:24px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  border-top: 1px solid #464646;
-  max-width: 800px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.active, .collapsible:hover {
-  background-color: #1D1E21;
-}
-
-.content{
-  display: none;
-  color: white;
-  max-width: 800px;
-  overflow: hidden;
-  background: linear-gradient(180deg, #1D1E21 0%, #27282A 59.23%, #27272A 100%);
-  border-bottom: 1px solid 464646;
-}
-
-.part2{
-  background-color: #1D1E21;
-  padding-top: 108px;
-    padding-bottom: 108px;
-}
-
-.part2Intro{
-  /* background-color: red; */
-  max-width: 800px;
-  display: flex;
-  margin: 0 auto;
-  margin-bottom: 80px;
-
-}
-
-
-.title-left{
-  /* background-color: yellow; */
-  flex-grow: 1;
-}
-
-.quote-right{
-  /* background-color: green; */
-  width: 368px;
-  border-left: 1px solid;
-  border-color: #464646;
-}
-
-.quote-right p{
-  color: var(--color-white);
-  padding-left: 24px;
-  color: white;
-  font-size: var(--scale-0);
-  line-height: var(--leading-normal);
-}
-
-blockquote{
-  margin: 0px;
-}
-
-.title-left h3{
-  color: white;
-  padding-left: 24px;
-}
-
-.Collapsibles{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.collapsible-title{
-  color: var(--color-white);
-  font-size: var(--scale-2);
-  font-weight: var(--font-bold);
-}
-
-.date{
-  color: var(--color-grey);
-  font-size: var(--scale-0);
-  line-height: var(--leading-none);
-
-}
-
-.role-description{
-  color: var(--color-white);
-  font-size: var(--scale-0);
-  padding: 0px 24px 24px 24px;
-  line-height: var(--leading-normal);
 }
