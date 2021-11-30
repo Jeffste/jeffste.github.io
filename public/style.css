@@ -223,13 +223,20 @@ nav [aria-current="page"] {
     opacity:1;
 }
 
+
+.title-home{
+  max-width: 700px;
+  word-wrap: break-word;
+  color: var(--chocolate-700);
+}
+
 /* Space between title and description  */
 .title{
   padding-right: 24px;
   max-width: 700px;
   /* overflow: inherit; */
   word-wrap: break-word;
-  color: var(--color-black);
+  color: var(--chocolate-700);
 }
 
 a{

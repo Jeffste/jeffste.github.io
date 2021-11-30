@@ -8,7 +8,7 @@ alias: posts
 ---
 
 <div class="hero-work">
-  <div class="title">
+  <div class="title-home">
     <h1>Leave it better<br/> than you found it</h1>
   </div>
   <div class="description">
