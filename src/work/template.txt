@@ -1,0 +1,42 @@
+---
+title: Mijnsubsidie
+featuredImage: /images/mijnsubsidie - card.png
+workIntro: At Mijnsubsidie, I created visual designs for their online web application. This application facilitates subsidy scans for businesses to accountants. The scans are a fast way to see if employees qualify for a subsidy.
+---
+
+## Improving design workflow with a Logitech MX Master 2, Full width Keyboard and Keyboard Maestro
+
+**Product designer & maker living in Berlin. Darshan currently heads design at GraphCMS and runs Product Disrupt. He also writes stories about design & travel, interviews creators, mentors designers and curates design resources.**
+</br>
+### What let you in design
+Growing up, I was fascinated by video and computer games. So I decided to become a Game Developer by enrolling in a Computer Engineering degree.
+
+By the second year of college, I got too bored with what they were teaching me in the class. I wanted to explore what was out there; I wanted to learn the technologies used in real-world products. So, I started making websites.
+
+And slowly but surely, I figured that I was more interested in designing a website than coding it. So, I decided to make a full-time career in design.
+
+Fortunately, after graduation, I landed a job at BookMyShow – the largest ticketing portal for entertainment in India. They hired me as a developer who could design, and my professional journey as a designer began from there.
+
+<figure>
+  <img src="/images/prost.png">
+  <figcaption>...</figcaption>
+</figure>
+
+# hahah
+## h2 is Dit
+### h3 is Dit
+#### h4 is dit Darshan
+##### h5 ziet er z uit
+
+
+
+### test
+bla de bla
+
+
+<figure>
+  <img src="/images/prost.png">
+  <figcaption>Dit is een figcaption</figcaption>
+</figure>
+
+Dit is een testje
