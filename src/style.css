@@ -71,7 +71,7 @@ html * {
 /*Font sizes*/
     --text-3:  0.75rem; /* 13px descriptions*/
     --text-4:  0.8125rem; /* 13px descriptions*/
-    --text-5:   1.10rem;     /* 16px default*/
+    --text-5:   1rem;     /* 16px default*/
     --text-6:   1.25rem;  /* 20px */
     --text-7:   1.40rem;
     --text-8:   3rem;
@@ -103,7 +103,7 @@ p{
   line-height: 32px;
   white-space: pre-line;
   color: var(--chocolate-500);
-  font-size: var(--text-5);
+  font-size: var(--text-6);
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
@@ -644,6 +644,7 @@ article p, h2,   h3{
 
 article img{
   margin: 0 auto;
+
 }
 
 figcaption{
