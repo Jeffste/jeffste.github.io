@@ -442,7 +442,7 @@ margin-bottom: 40px;
 }
 
 
-.hero-writing{
+.hero-things{
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
@@ -467,22 +467,8 @@ margin-bottom: 40px;
   -o-animation: fadein 2s; /* Opera */
 }
 
-.hero-writing p{
+.hero-things p{
   color: #656363;
-}
-
-
-.hero-things{
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  /* background-color: pink; */
-  margin-top: 100px;
-  padding-bottom: 80px;
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
 }
 
 .body-things{
@@ -656,7 +642,9 @@ article p, h2,   h3{
   margin: 0 auto;
 }
 
-
+article img{
+  margin: 0 auto;
+}
 
 figcaption{
   font-family: 'Roboto', sans-serif;
@@ -695,6 +683,7 @@ main{
 }
 
 
+
 }
 
 /* ------------ maxwidth 700 ----------------------- */
@@ -722,10 +711,6 @@ main{
   object-fit: cover;
 }
 
-  .grid-read{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 
   .header1{
     /* padding-left: 1.0rem; */
@@ -772,8 +757,8 @@ main{
 /* Grid columns become full width >700px */
 .grid-read{
   grid-template-columns: 1fr;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 
 }
 
@@ -803,14 +788,24 @@ main{
   }
 
 
-
+  .hero-things{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 64px;
+    padding-bottom: 80px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  }
 
 
   .hero-case{
     max-width: 1100px;
     margin: 0 auto;
-    /* background-color: pink; */
-    margin-top: 100px;
+    background-color: pink;
+    margin-top: 64px;
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
