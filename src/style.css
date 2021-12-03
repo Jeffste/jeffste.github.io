@@ -4,14 +4,10 @@ html * {
 }
 
 @font-face {
-  font-family: 'TiemposHeadline';
-  src: url('fonts/TiemposHeadlineWeb-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/TiemposHeadlineWeb-Semibold.woff'), /* IE6-IE8 */
-       url('fonts/TiemposHeadlineWeb-Semibold.woff2'), /* Modern Browsers */
-
+  font-family: "TiemposHeadline";
+  src: url("/fonts/TiemposHeadlineWeb-Semibold.woff2") format("woff2");
+  font-display: swap;
 }
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
@@ -97,6 +93,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
     margin-top: 0;
     margin-bottom: 0;
     color: var(--chocolate-700);
+    font-family: 'TiemposHeadline';
 }
 
 /* Default paragraph */
@@ -107,6 +104,7 @@ p{
   font-size: var(--text-6);
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+
 }
 
 h3{
@@ -247,11 +245,12 @@ a{
   color: #6328e1;
 }
 /* Headings-desktop */
+
 h1{
   /* font-size: var(--text-9); */
   font-size: 64px;
   line-height: 72px;
-  font-family: TiemposHeadline;
+  font-family: "TiemposHeadline";
 }
 
 h2{
@@ -755,7 +754,7 @@ figure{
 /* h1 mobile */
   h1{
     font-size: var(--text-9);
-    line-height: 72px;
+    line-height: 68px;
     font-family: 'TiemposHeadline';
   }
 

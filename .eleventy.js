@@ -6,6 +6,11 @@
    // Copy `img/` to `_site/img`
    eleventyConfig.addPassthroughCopy("src/images");
 
+   // Copy `css/fonts/` to `_site/css/fonts`
+   // Keeps the same directory structure.
+   eleventyConfig.addPassthroughCopy("src/fonts");
+
+
 
   return {
     dir:{
