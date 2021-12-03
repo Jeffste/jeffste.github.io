@@ -136,6 +136,14 @@ nav [aria-current="page"] {
 	padding:12px 16px;
 	text-decoration:none;
 }
+
+.tertiary-button{
+  border-bottom: 2px solid #000;
+  padding-bottom: 1px;
+  font-weight: 600;
+
+}
+
 .myButton:hover {
 	/* background-color:transparent; */
   text-decoration: underline;
