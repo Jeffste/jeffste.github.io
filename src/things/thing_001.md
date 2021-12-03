@@ -1,5 +1,5 @@
 ---
-title: Handdrawn vectors
+title: Hand drawn vectors
 short: Quick hand-drawn vectors for the Figma Community
 ---
 
