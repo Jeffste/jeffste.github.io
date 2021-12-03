@@ -3,14 +3,14 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-/* Fonts headings */
 @font-face {
-    font-family: 'Tiempos Headline';
-    src: url('fonts/TiemposHeadline/TiemposHeadlineWeb-Semibold.woff2') format('woff2'),
-         url('fonts/TiemposHeadline/TiemposHeadlineWeb-Semibold.woff') format('woff'),
-    font-weight: 600;
+  font-family: 'TiemposHeadline';
+  src: url('fonts/TiemposHeadlineWeb-Semibold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/TiemposHeadlineWeb-Semibold.woff'), /* IE6-IE8 */
+       url('fonts/TiemposHeadlineWeb-Semibold.woff2'), /* Modern Browsers */
+
 }
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
@@ -75,7 +75,7 @@ html * {
     --text-6:   1.25rem;  /* 20px */
     --text-7:   1.40rem;
     --text-8:   3rem;
-    --text-9:   4rem;
+    --text-9:   4rem; /* 64px */
 
 /* Lineheights */
     --lineheight-default: 1.5;
@@ -245,12 +245,12 @@ a{
 .backlink{
   color: #6328e1;
 }
-/* Headings */
+/* Headings-desktop */
 h1{
-  font-size: var(--scale-8);
-  line-height:72px;
-  font-family: 'TiemposHeadline';
-  /* line-height: var(--lineheight-default); */
+  /* font-size: var(--text-9); */
+  font-size: 64px;
+  line-height: 72px;
+  font-family: TiemposHeadline;
 }
 
 h2{
@@ -469,6 +469,7 @@ margin-bottom: 40px;
 
 .hero-things p{
   color: #656363;
+  padding-top: 24px;
 }
 
 .body-things{
@@ -488,8 +489,8 @@ margin-bottom: 40px;
 }
 
 .description{
-max-width: 600px;
-padding-top: 32px;
+max-width: 670px;
+padding-top: 24px;
 
 }
 
@@ -640,6 +641,7 @@ article p, h2,   h3{
   /* background: purple; */
   max-width: 650px;
   margin: 0 auto;
+  padding-top:8px;
 }
 
 article img{
@@ -733,12 +735,11 @@ main{
     right: 50%;
     width: 100vw; */
 }
-
+/* h1 mobile */
   h1{
-    font-size: var(--scale-6);
-    line-height: 44px;
+    font-size: var(--text-9);
+    line-height: 72px;
     font-family: 'TiemposHeadline';
-    /* line-height: var(--lineheight-default); */
   }
 
 
