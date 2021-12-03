@@ -41,8 +41,13 @@ Before I started with wireframing first investigated all the ins and outs of the
 </figure>
 
 ###   Designing
-When I was confident about the flow, I started designing screens for the results dashboard. Everything nicely aligned responsive columns and 8px grid.<br/>
+When I was confident about the flow, I started designing screens for the results dashboard. First, I created responsive columns and an 8px grid system. Later on, this will help me align elements and prepare the other breakpoints. <br/>
 Before I start designing, I look at the surroundings pages. What do the users experience before they land here? Those pages are outside the scope, but I'm focussing mainly on the visual hierarchy across pages. The page's importance compared to the others will affect how the page will look. <br/>
+
+<video width="1100" height="800" autoplay loop muted playsinline>
+  <source src="/images/responsive.mp4" type="video/mp4" />
+</video>
+
 This method will prevent me from creating similar-looking pages and, if done right, result in an excellent visual hierarchy across pages from important → to less important. The results dashboard is off course, one that can stand out, as it contains the content lots of users are waiting for and often is a starting point when login.
 
 <figure>
@@ -77,8 +82,8 @@ Finally, it's time to show our flow to users. During this phase, I worked closel
 
 **Introduction**: Who are we, why are we doing it, how long does it take, and the goal of this project.<br/>
 **Think out loud:** Everything can be valuable for us, don't worry about our feelings, and you can't do wrong.<br/>
-**Record:** It would help us if we could record this session. We need to ask permission before we start the recording<br/>
-**Scenario:** describes the context behind a specific user or user group that visit the platform.<br/>
+**Record:** It would help us if we could record this session. We need to ask permission before we start the recording.<br/>
+**Scenario:** describes the context behind a specific user or user group that visits the platform.<br/>
 **Hypothesis:** Per scenario, we wrote down the hypothesis. During each task, we asked what the user thought of it.<br/>
 **Potential questions:**  Upfront, we prepared lots of questions to validate assumptions we've made.
 
