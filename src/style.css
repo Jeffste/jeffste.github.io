@@ -57,6 +57,7 @@ html * {
 :root{
 /* Colors*/
 
+--chocolate-300: #7D7373;
 --chocolate-500: #656363;
 --chocolate-700: #333333;
 
@@ -314,6 +315,8 @@ img { /* image fits within div */
 figure{
   margin: 0;
   text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .grid-read figure{
@@ -651,8 +654,9 @@ article img{
 
 figcaption{
   font-family: 'Roboto', sans-serif;
-  margin-top: 16px;
-  font-size: 14px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: var(--chocolate-300);
 }
 
 /* empty asides */
@@ -685,7 +689,9 @@ main{
   padding-right: 0rem;
 }
 
-
+.hero-case{
+  padding-bottom: 0px;
+}
 
 }
 
@@ -712,6 +718,13 @@ main{
 .hero img{
   height: 900px;
   object-fit: cover;
+}
+
+figure{
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
@@ -802,13 +815,13 @@ main{
     -o-animation: fadein 2s; /* Opera */
   }
 
-
+/* mobile hero */
   .hero-case{
     max-width: 1100px;
     margin: 0 auto;
-    background-color: pink;
+    /* background-color: pink; */
     margin-top: 64px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     animation: fadein 2s;
