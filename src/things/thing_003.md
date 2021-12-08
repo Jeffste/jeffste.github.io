@@ -19,13 +19,12 @@ You can copy multiple items before going to your paste destination, and this can
 Let's start with the setup for Windows users. The lucky ones, because Windows 10 and higher comes with a clipboard history feature preinstalled! Windows logo key + V does the trick. If this does not work, enable clipboard history in your settings.
 </br>For Mac users, it's a bit more work because it's is not preinstalled on Monterey (The latest OS when writing this). Luckily, great third-party tools exist to set up a clipboard history—Raycast.com, Alfredapp.com, Pasteapp.io, and probably more. Find your favorite and get started! I'll explain how you set it up with Raycast.
 
-1. Download Raycast on your Mac
+1. [Download Raycast](https://www.raycast.com/). on your Mac
 2. Start Raycast and go Settings (⌘,)
 3. Search for 'Clipboard History'
 4. Make sure the Clipboard History is Enabled ✔
 5. Setup a Hotkey (shortcut)
 6. Done
-
 
 
 #### Choosing a Shortcut
