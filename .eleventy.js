@@ -10,6 +10,10 @@
    // Keeps the same directory structure.
    eleventyConfig.addPassthroughCopy("src/fonts");
 
+   // Copy `css/fonts/` to `_site/css/fonts`
+   // Keeps the same directory structure.
+   eleventyConfig.addPassthroughCopy("src/fonts/roboto");
+
 
 
   return {

@@ -3,13 +3,22 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("/fonts/roboto/Roboto-Regular.ttf") format("ttf");
+  font-display: swap;
+}
+
+
+
 @font-face {
   font-family: "TiemposHeadline";
   src: url("/fonts/TiemposHeadlineWeb-Semibold.woff2") format("woff2");
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
 @keyframes fadein {
@@ -65,6 +74,22 @@ html * {
 
 
 
+
+--h1: 600 4rem/4.5rem TiemposHeadline;
+--h2: 600 2.5rem/3rem TiemposHeadline;
+--h3: 600 1.625rem/2rem TiemposHeadline;
+--h4: 600 1.25rem/1.5rem TiemposHeadline;
+--h5: 700 0.8125rem/1rem Roboto;
+--default: 400 1.125rem/1.75rem Roboto;
+--default-small: 400 1rem/1.5rem Roboto;
+--default-medium: 500 1.125rem/1.75rem Roboto;
+--menu: 700 0.8125rem/1.25rem Roboto;
+
+--h3a: 700 1.5rem/1.75rem Roboto;
+--h4a: 700 1.125rem/1.375rem Roboto;
+
+
+
 /*Font sizes*/
     --text-3:  0.75rem; /* 13px descriptions*/
     --text-4:  0.8125rem; /* 13px descriptions*/
@@ -93,7 +118,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
     margin-top: 0;
     margin-bottom: 0;
     color: var(--chocolate-700);
-    font-family: 'TiemposHeadline';
 }
 
 /* Default paragraph */
@@ -101,20 +125,18 @@ p{
   line-height: 32px;
   white-space: pre-line;
   color: var(--chocolate-500);
-  font-size: var(--text-6);
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
-
+  font: var(--default);
 }
 
 h3{
-  font-size: var(--text-6);
+  font: var(--h3);
 }
 
 .cardThings p{
     font-size: 14px;
     line-height: var(--leading-normal);
     color: #656363;
+    font: var(--default-small);
     padding-top: 8px;
 
 }
@@ -249,32 +271,27 @@ a{
   color: var(--chocolate-700);
 }
 
-.backlink{
-  color: #6328e1;
-}
 /* Headings-desktop */
 
 h1{
-  /* font-size: var(--text-9); */
-  font-size: 64px;
-  line-height: 72px;
-  font-family: "TiemposHeadline";
+  font: var(--h1);
 }
 
 h2{
-  font-size: var(--scale-5);
+  font: var(--h2);
 }
 
 h4{
-    font-size: var(--scale-000);
-    line-height: var(--leading-normal);
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.2em;
+    font: var(--h4);
+}
+
+h5{
+    font: var(--h5);
     text-transform: uppercase;
     margin-bottom: 8px;
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
 }
+
 
 nav{
   padding-right: 1rem;
@@ -348,9 +365,7 @@ figure{
 
 /* Article intro styling */
 .intro-paragraph{
-  font-size: var(--text-6);
-  font-weight: 700;
-  line-height: var(--lineheight-default);
+  font: var(--default);
   padding-top: var(--dist-16);
   max-width: 600px;
   margin: 0 auto;
@@ -358,7 +373,7 @@ figure{
 
 .read-paragraph{
   padding-top: var(--dist-16);
-  font-size: var(--text-6);
+  font: var(--default);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -388,17 +403,14 @@ figure{
 /* Navigation links */
 nav a{
   text-decoration: none;
-  font-weight: 700;
-  font-size: var(--text-4);
-  font-family: 'Roboto', sans-serif;
+  font: var(--menu);
+  letter-spacing: 0.02em;
 }
 
 
 .backlink{
   text-decoration: none;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
-  font-size: var(--text-4);
+  font: var(--menu);
   color: #6328e1;
 }
 
@@ -518,7 +530,6 @@ body {
   margin-bottom: 0px;
   position: relative;
   background-color:var(--white-500);
-
 }
 
 .grid-blog {
@@ -610,7 +621,7 @@ body {
 
 .card p{
   margin-top: 2px;
-  font-size: var(--text-4);
+  XXXXXXXXXX(--text-4);
 }
 
 
@@ -647,12 +658,32 @@ article{
 
 }
 
-article p, h2,   h3{
-  /* background: purple; */
+article p, h2, h3, h4, ol{
   max-width: 650px;
   margin: 0 auto;
-  padding-top:8px;
 }
+
+article h2{
+      padding-bottom: var(--dist-16);
+}
+
+article h3{
+    font: var(--h3a);
+    padding-bottom: var(--dist-4);
+}
+
+article h4{
+    font: var(--h4a);
+    padding-bottom: var(--dist-4);
+}
+
+ol{
+  font: var(--default);
+  color: var(--chocolate-300);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 article img{
   margin: 0 auto;
@@ -660,10 +691,11 @@ article img{
 }
 
 figcaption{
-  font-family: 'Roboto', sans-serif;
   margin-top: 12px;
-  font-size: 16px;
+  font: var(--default-small);
   color: var(--chocolate-300);
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 /* empty asides */
@@ -747,23 +779,10 @@ figure{
     padding-right: 1.0rem;
   }
 
-
-  .grid-read figure{
-    /* margin-left: -1.0rem;
-    margin-right: -1.0rem;
-    left: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    max-width: 100vw;
-    position: relative;
-    right: 50%;
-    width: 100vw; */
-}
 /* h1 mobile */
   h1{
-    font-size: var(--text-9);
+    XXXXXXXXXX(--text-9);
     line-height: 68px;
-    font-family: 'TiemposHeadline';
   }
 
 

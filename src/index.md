@@ -21,7 +21,7 @@ alias: posts
 {% for post in collections.work %}
 
   <div class="card">
-      <a href="{{post.url}}"><h4>{{post.data.title}}</h4></a>
+      <a href="{{post.url}}"><h5>{{post.data.title}}</h5></a>
       <img src="{{post.data.featuredImage}}" alt="card">
   </div>
 {% endfor %}
