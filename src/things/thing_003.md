@@ -4,9 +4,9 @@ short: Speed up your workflow with clipboard history
 thingIntro: Reading this post will take some time, but I guarantee you will win this time back once you start using your clipboard history in your workflow. What is it? Well, as its name suggests, it's an overview of your clipboard history. It displays everything you've copied recently; Text, images, videos, pdfs, etc. All at your fingertips and ready to be pasted!
 ---
 
-</br>
-</br>
-</br>
+</br></br></br>
+
+
 
 ### Why do I need this?
 Well, to speed up your workflow! If you copy and paste, clipboard history will be a huge timesaver. Let me explain why you need this with a few examples.
@@ -33,8 +33,8 @@ Let's start with the setup for Windows users. The lucky ones, because Windows 10
 
 
 #### Choosing a Shortcut
-A shortcut triggers the clipboard history view. If you are not really into shortcuts, I recommend choosing an easy one. It's a shame to forget the combination and end up not using the feature at all. <img src="/images/keyboard.png">  <figcaption>The Shortcut I'm using for clipboard history</figcaption>
-<br/><br/>
+A shortcut triggers the clipboard history view. If you are not really into shortcuts, I recommend choosing an easy one. It's a shame to forget the combination and end up not using the feature at all. <img src="/images/keyboard.png"><figcaption>The Shortcut I'm using for clipboard history</figcaption><br><br>
+
 
 Make sure your chosen shortcut is unique and does not overwrite your OS shortcuts. So ⌘V (Used my clipboard history to paste the ⌘ ) is a bad idea; you don't want to trigger the clipboard history every time you paste.
 
