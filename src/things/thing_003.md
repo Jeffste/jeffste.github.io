@@ -12,7 +12,7 @@ thingIntro: Reading this post will take some time, but I guarantee you will win 
 Well, to speed up your workflow! If you copy and paste, clipboard history will be a huge timesaver. Let me explain why you need this with a few examples.
 </br>
 #### Easy to recall
-It's easy to recall what you copied yesterday, but finding the item or retyping the exact phrase can be challenging. You can go through your recent files or browser history, but it does take some time.
+It's easy to recall what you copied yesterday, but finding the item or retyping the exact phrase can be challenging or even impossible. You can go through your recent files or browser history, but it does take some time. Searching again is no longer needed if you have set up a clipboard history. You can scroll through your latest copied items and paste.
 </br>
 #### Pasted the wrong thing
 It happens that you paste something, but it's not what you had in mind. You already copied something else, but you've forgotten about it. With a clipboard history, you can quickly get your second last copy.
