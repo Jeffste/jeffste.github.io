@@ -94,6 +94,7 @@ html * {
 --default: 400 1.125rem/1.75rem Roboto;
 --default-small: 400 1rem/1.5rem Roboto;
 --default-medium: 500 1.125rem/1.75rem Roboto;
+--default-tiny: 400 0.8125rem/1.25rem Roboto;
 --menu: 700 0.8125rem/1.25rem Roboto;
 
 --h3a: 700 1.5rem/1.75rem Roboto;
@@ -569,17 +570,16 @@ body {
   margin-bottom: 200px;
 }
 
-.cardThings{
-  background-color: #FAF9F9;
-  padding: 24px;
-  border-radius: 8px;
-  min-height: 135px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 80px;
-  align-content: flex-start;
+.cardThings {
+    background-color: #FAF9F9;
+    padding: 24px;
+    border-radius: 8px;
+    min-height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
 }
-
 
 
 .cardThings:hover{
@@ -591,12 +591,30 @@ body {
 }
 
 .tag{
-  background-color: #FCFCFC;
-  outline: solid 1px #000;
-  padding:4px;
+  outline: solid 1px red;
+  padding:4px 8px;
   max-height: 20px;
-  max-width: 60px;
   text-align: center;
+  font: var(--default-tiny);
+  color: var(--chocolate-300);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex-basis:  | auto;
+}
+
+.date{
+  font: var(--default-tiny);
+  color: var(--chocolate-300);
+  text-transform: uppercase;
+  padding:0px 0px;
+  /* max-height: 20px; */
+  letter-spacing: 0.2em;
+}
+
+.cardBottom{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
