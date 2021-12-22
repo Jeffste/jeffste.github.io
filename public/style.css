@@ -90,11 +90,11 @@ html * {
 --h2: 600 2.5rem/3rem TiemposHeadline;
 --h3: 600 1.625rem/2rem TiemposHeadline;
 --h4: 600 1.25rem/1.5rem TiemposHeadline;
---h5: 700 0.8125rem/1rem Roboto;
+--h5: 400 0.8125rem/1rem Roboto;
 --default: 400 1.125rem/1.75rem Roboto;
 --default-small: 400 1rem/1.5rem Roboto;
 --default-medium: 500 1.125rem/1.75rem Roboto;
---default-tiny: 400 0.8125rem/1.25rem Roboto;
+--default-tiny: 400 0.700rem/1.00rem Roboto;
 --menu: 700 0.8125rem/1.25rem Roboto;
 
 --h3a: 700 1.5rem/1.75rem Roboto;
@@ -304,6 +304,7 @@ h5{
     text-transform: uppercase;
     margin-bottom: 8px;
     letter-spacing: 1.5px;
+    text-decoration: underline;
 }
 
 
