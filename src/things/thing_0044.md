@@ -1,6 +1,7 @@
 ---
 title: Save time with clipboard history
 short: Speed up your workflow with clipboard history
+eleventyExcludeFromCollections: true
 thingIntro: Reading this post will take some time, but I guarantee you will win this time back once you start using your clipboard history in your workflow. What is it? Well, as its name suggests, it's an overview of your clipboard history. It displays everything you've copied recently; Text, images, videos, pdfs, etc. All at your fingertips and ready to be pasted!
 ---
 
